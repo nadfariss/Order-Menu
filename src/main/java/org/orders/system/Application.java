@@ -17,11 +17,10 @@ public class Application {
     private static final Logger log = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) throws IOException {
-log.info("Starting the project!!");
+
         File file = new File(Constants.PATH);
         BufferedReader br = new BufferedReader(new FileReader(file));
         String line;
-        String message="";
         while ((line = br.readLine()) != null) {
             String[] lineArray = line.split(" ");
             List<Integer> listOfInteger;
@@ -49,6 +48,7 @@ log.info("Starting the project!!");
                   Order order = new Order(meal,collection);
                  collection = MealUtils.mapItemsValues(listOfInteger);
                   System.out.println(order.getMeal().displayMap(collection));
+                 log.info(order.getMeal().displayMap(collection));
                   }
         }
 
