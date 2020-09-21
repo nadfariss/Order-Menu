@@ -17,7 +17,7 @@ public class Application {
     private static final Logger log = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) throws IOException {
-log.info("Starting the project!!");
+log.info("Order System!!");
         File file = new File(Constants.PATH);
         BufferedReader br = new BufferedReader(new FileReader(file));
         String line;
