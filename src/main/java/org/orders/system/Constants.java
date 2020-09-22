@@ -22,6 +22,6 @@ public final class Constants {
     public static final String COMMA = ", ";
     public static final String OPENPARENTHESIS = "(";
     public static final String CLOSEPARENTHESIS = ")";
-    public static final String PATH = "d:\\Users\\nadfa\\test.txt";
-
+    //public static final String PATH = "d:\\Users\\nadfa\\test.txt";
+    public static final String PATH ="test.txt";
 }
