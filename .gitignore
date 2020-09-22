@@ -1,0 +1,68 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Gradle generated files #
+##########################
+.gradle
+portal_normal.vm
+lb-app/*/src/main/webapp/min
+lb-app/*/src/main/webapp/min/*
+
+# Maven generated files #
+#########################
+target
+
+# IDE project files  #
+# Intellij           #
+######################
+*.iml
+*.ipr
+*.iws
+.idea/*
+atlassian-ide-plugin.xml
+build
+
+# IDE project files  #
+# STS                #
+######################
+.project
+.classpath
+.settings
+.metadata
+Servers
+bin
+evive/out
+
+# Solr generated files #
+########################
+dataimport.properties
+lb-app/lb-search/solrHome/data
+
+
+# Backup files for local settings #
+###################################
+local-temp
+
+.env*
+!.env.example
