@@ -26,6 +26,7 @@ public class Application {
             List<Integer> listOfInteger;
              if (lineArray.length == 1) {
                 System.out.println("Unable to process: Main is missing, side is missing");
+                log.info("Unable to process: Main is missing, side is missing");
                 continue;
             } else {
                String type = line.split(" ")[0];
@@ -35,7 +36,8 @@ public class Application {
                 if( line.split(" ")[1]
                           .split(",")
                           .length ==1) {
-                      System.out.println("Unable to process: Side is missing");
+                    System.out.println("Unable to process: Side is missing");
+                    log.info("Unable to process: Side is missing");
                       continue;
                   }
                   else {
